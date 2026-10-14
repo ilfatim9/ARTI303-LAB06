@@ -1,0 +1,32 @@
+Welcome to SWI-Prolog (threaded, 64 bits, version 10.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit https://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+48 ?- consult(['c:/Users/fatim/Downloads/cars.pl']).
+true.
+
+49 ?- can_buy(100000, red).
+With 80000 you can purchase the red car datsun
+true .
+
+50 ?- can_buy(100000, blue).
+With 80000 you can purchase the blue truck ford
+true.
+
+51 ?- can_buy(100000, green).
+false.
+
+52 ?- can_buy(100000).
+With 90000 you can purchase the car ford
+true 
+Unknown action: C (h for help)
+Action? .
+
+53 ?- can_buy(100000).
+With 90000 you can purchase the car ford
+true ;
+With 80000 you can purchase the car datsun
+true 
